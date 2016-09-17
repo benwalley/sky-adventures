@@ -1,12 +1,8 @@
 
-body{
-	color:white;
-	background-image:url("https://scontent.fden3-1.fna.fbcdn.net/v/t1.0-9/12141583_1042699659120101_3747530150763422429_n.jpg?oh=88b668cde2e71389dd35b926ee4b6259&oe=581BD912");
-	background-attachment:fixed;
-	background-size:108vw;
-	font-family: 'Lora', serif;
-	background-repeat: no-repeat;
 
+body{
+	font-family: 'Lora', serif;
+	margin:none;
 }
 
 /*NAVBAR SECTION   =====================================================*/
@@ -52,7 +48,7 @@ body{
 .navA{
 	color:#5f5e5e;
 	text-align:center;
-	
+	text-decoration:none;
 	vertical-align:center;
 	font-size:1.3vw;
 	font-family: 'Taviraj', serif;
@@ -176,155 +172,21 @@ body{
 	height:19vh;
    -webkit-transition: all 0.5s ease;
    transition: all .5s ease;
+
+}
+
+#space{
+	height:19vh;
+	float:left;
+	display:blockd;
 }
 
 
 
 /*MAIN BODY SECTION ==================================================*/ 
-#space {
-		height:90vh;
-		background:rgba(23,23,23,.4);
-}
 
 
-
-
-.but{
-	
-	font-size:3.3vw;
-	text-decoration:none;
-	color:#eeeeee;
-	margin-left:25%;
-	padding:7px 25px;
-	border:3px solid #dddddd;
-	border-radius:10px;
-	margin-top:55vh;
-	float:left;
-	background:rgba(0,0,0,.3);
-}
-
-.but:hover{
-	color:white;
-	text-decoration:none;
-	background:rgba(0,0,0,.4);
-
-}
-.but:focus{
-	text-decoration: none;
-	color:white;
-}
-
-
-
-.sideImage{
-	width:80%;
-	margin-left:10%;
-	margin-top:100px;
-	box-shadow:4px 4px 10px rgba(0,0,0,.3);
-}
-
-
-.written{
-width:40%;
-padding-left:5%;
-padding-top:100px;
-float:left;
-	
-}
-
-.image{
-	float:left;
-	width:50%;
-
-
-
-	
-
-}
-
-#blue{
-	color:white;
-	float:left;
-	background:#4591b7;
-	width:100%;
-	padding-bottom:5vh;
-	font-size:1.1vw;
-	
-}
-
-
-
-.instr{
-	
-	color:#313131;
-	background:#b7dff3;
-	float:left;
-	padding:7vh;
-	padding-left:60px;
-	font-family: 'Taviraj', serif;
-	font-size:1.1vw;
-
-
-}
-
-.instructor{
-	width:50%;
-	float:left;
-}
-
-.instr h2{
-	text-decoration: underline;
-	font-family: 'Playfair Display', serif;
-
-	padding:15px;
-
-}
-
-.written h2{
-	text-decoration: underline;
-	font-family: 'Playfair Display', serif;
-
-	padding:15px;
-}
-
-.contactButton{
-	font-size:1.4vw;
-	color:#313131;
-	padding:7px;
-	padding-top:4px;
-	padding-bottom:4px;
-	background:rgba(0,0,0,.1);
-	border-radius:7px;
-	border:2px solid rgba(255,255,255,.6);
-	margin:5px;
-	float:left;
-
-}
-
-.contactButton:hover{
-	color:black;
-	background:white;
-	text-decoration: none;
-}
-
-.contactButton:focus{
-	color:#313131;
-	background:rgba(0,0,0,.1);
-	text-decoration: none;
-
-
-}
-
-
-
-
-.right{
-	float:right;
-	width:30vw;
-	box-shadow:3px 3px 4px 1px rgba(0,0,0,.3),  -1px 0 0.4em rgba(0,0,0,.6);
-	margin-right:50px;
-}
-
+/*FOOTER SECTION ============================================================================*/
 .links{
 	width:100%;
 	padding-top:20px;
