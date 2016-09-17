@@ -112,6 +112,18 @@ function changeForeward(group){
 	console.log(count)
 }
 
+function changeBackward(group){
+	group[count].style.display = "none"
+
+	if(count >= group.length -1){
+		count = 0;
+	}else{
+		count++
+	}
+	group[count].style.display = "block"
+	console.log(count)
+}
+
 
 $(".oneRight").click(function(){
 	changeForeward(p1Images)
