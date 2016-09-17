@@ -8,7 +8,7 @@ var space = $("#spacer");
 var p1Images = $(".p1Images");
 var p2Images = $(".p2Images");
 var count = 0
-var slide = false
+var clicked = false;
 var showing = false;
 
 $(window).scroll(function() {
@@ -116,7 +116,7 @@ function changeBackward(group){
 	group[count].style.display = "none"
 
 	if(count <= 0){
-		count =  group.length;
+		count =  group.length -1;
 	}else{
 		count--
 	}
@@ -129,13 +129,9 @@ $(".oneRight").click(function(){
 	changeForeward(p1Images)
 })
 
-
-
 $(".twoRight").click(function(){
 	changeForeward(p2Images)
 })
-
-
 
 // WHEN YOU CLICK THE LEFT ARROW
 $(".oneLeft").click(function(){
@@ -146,10 +142,10 @@ $(".twoLeft").click(function(){
 	changeBackward(p2Images)
 })
 
-$(".slide2").click(function(){
-	changeForeward(p2Images)
-})
+// $(".slide2").click(function(){
+// 	changeForeward(p2Images)
+// })
 
-$(".slide1").click(function(){
-	changeForeward(p1Images)
-})
+// $(".slide1").click(function(){
+// 	changeForeward(p1Images)
+// })
