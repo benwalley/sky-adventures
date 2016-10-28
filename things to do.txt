@@ -16,3 +16,27 @@ google maps location
 =========================================
 
 link to calender
+
+====================================================================
+oct 11
+
+=============
+make popup window with weather info
+(use absolute positioning maybe?)
+
+--(done)--  make header and footer on schedule flight intermediate page  --(done)--
+
+
+
+disovery flight $99
+
+average lesson 1 hour ground, 1 hour flight instruction about $205
+
+private pilot $11,290
+
+instrument rating $6660
+
+
+
+
+make instructor link scroll to instructor info

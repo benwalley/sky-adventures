@@ -1,18 +1,23 @@
 <!DOCTYPE html>
+
 <html>
 <head>
 	<title>Schedule a flight</title>
+
 	<link rel="stylesheet" media="screen and (orientation:portrait)" href="css/phoneSchedule.css" />
 	<link rel="stylesheet" media="screen and (orientation:landscape)" type="text/css" href="css/schedule.css">
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 
-</head>
-<body>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 
-<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.webdesign-muenchen.me/" id="get-map-data">webdesign muenchen</a></div></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(37.221248,-93.24203299999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(37.221248, -93.24203299999999)});infowindow = new google.maps.InfoWindow({content:"<b>The Circle</b><br/>2546 E Division St, <br/>65803 Springfield" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 
- -->
-<h1>Instructions</h1>
+<?php include("../includes/header.php"); ?>
+
+	<!-- CONTENT ========================== -->
+
+<div class = "whole">
+<h1 id = "h1">Instructions</h1>
+
 
 	<p class = "big">You can call Josh Monson to schedule a discovery flight, at:  <span>(417)837-9771</span></p>
 	<p class = "big">Or follow instructions below, to see Sky Adventures calender.</p>
@@ -50,5 +55,9 @@
 <button class = "back"><a href="../index.html">< Back</a></button>
 <button class = "create"><a href="https://flightcircle.com/associate/1ee384bca8d1">Create Account ></a></button>
 
-</body>
-</html>
+</div>
+
+
+
+
+<?php include("../includes/footer.html"); ?>

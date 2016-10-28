@@ -267,6 +267,26 @@ float:left;
 
 }
 
+.weatherPop{
+	width:40%;
+	height:70vh;
+	position:fixed;
+	left:30%;
+	top:20vh;
+	background:white;
+}
+
+.closer{
+	background:red;
+	height:8%;
+	width:10%;
+	float:right;
+	color:white;
+	text-align:center;
+	padding:6px;
+	font-size:1.4em;
+}
+
 .instructor{
 	width:50%;
 	float:left;

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
+
 <html>
 <head>
-	<title>Sky Adventures</title>
+<title>Sky Adventures</title>
+
+<?php include("../includes/header.php"); ?>
 
  
 
@@ -11,58 +14,6 @@
 
   <link rel="stylesheet" media="screen and (orientation:portrait)" href="css/phoneAirplanes.css" />
  
-
-<!-- jQuery -->
-		<script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-
-		<!-- bootstrap -->
-    <script type="text/javascript" src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-
-<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Lora|Taviraj:500" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-
-
-</head>
-<body>
-
-<nav class=" navbar-fixed-top" id = "navBar">
-  <div class="container-fluid">
-    <button class="s" id = "hamburger">
-
-     
-     <div class = "bar"></div>
-     <div class = "bar"></div>
-     <div class = "bar"></div>
-    </button>
-
-      <a class="navbar-brand" href="../index.html" id = "brand"> <img id = "logo" alt="Brand" src="images/sathumb.jpg"></a>
-    
-    <div class="" id="myNavbar">
-        <div class = "navLi"><a class = "navA" href="../faq/index.html">FAQ</a></div>  
-        <div class = "navLi"><a class = "navA" href="#">Links</a></div>
-        <div class = "navLi"><a class = "navA" href="#">Flight Information</a></div>     
-        <div class = "navLi"><a class = "navA" href="#">Instructors</a></div>
-        <div  class="navLi"><a class = "navA" href="#">Aircrafts</a></div>
-        
-        
-        
-
-    
-    </div>
-  </div>
-
-</nav>
-<div id = "drop">
-  <div id = "spacer"></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Aircrafts</a></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Instructor</a></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Flight Information</a></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Links</a></div>
-  <div class = "dropdown"><a class = "last dropdowna " href="#">FAQ</a></div>
-</div>
 
 
  <!-- content =============================================== -->
@@ -164,36 +115,7 @@
 </div>
 
 
-
+<script type="text/javascript" src = "js/airplanes.js"></script>
  <!-- ============================================================= -->
 
-<div class = "links">
-  <a href="http://www.facebook.com/springfieldskyadventures">
-  <div class = "fb">
-    <div class = "fbText"><p>Visit our Facebook page to</p><p>see recent events</p></div><img class = "smallFb" img src="images/FB-f-Logo__white_72.png"><img class = "bigFb" src="images/FB-f-Logo__white_144.png">
-  </div>
-  </a>
-  <div class = "linkStack">
-    <a class = "link" href="#">Student Pilots</a>
-    <a class = "link" href="#">Financing</a>
-    <a class = "link" href="#">Cost Estimate</a>
-    <a class = "link" href="http://www.aviationalweather.gov">Weather</a>
-    <a class = "link" href="#">Springfield Flying service</a>
-    <a class = "link" href="http://www.faa.gov/regulations_policies/handbooks_manuals/aircraft">FFA training books</a>
-  </div>
-  <div class = "linkStack">
-    <a class = "link" href="#">Aircrafts information</a>
-    <a class = "link" href="#">Instructor Profile</a>
-    <a class = "link" href="#">Schedule a Flight</a>
-    <a class = "link" href="../faq/index.html">FAQ</a>
-    <a class = "link" href="contact.htm">Contact</a>
-    
-  </div>
-
-      <div  class = "contact">Copyright &copy; 2016 Joshua Monson </div>
-
-</div>
-
-    <script type="text/javascript" src = "js/airplanes.js"></script>
-</body>
-</html>
+<?php include("../includes/footer.html"); ?>

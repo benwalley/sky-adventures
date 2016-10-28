@@ -92,3 +92,5 @@ function resize(){
 	}
 }
 
+
+$(".weatherPop").load("https://www.aviationweather.gov/metar/data?ids=ksgf&format=decoded&date=0&hours=0");
