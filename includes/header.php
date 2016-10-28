@@ -36,12 +36,12 @@
      <div class = "bar"></div>
      </button>
 
-      <a class="navbar-brand" href="/" id = "brand"> <img id = "logo" alt="Brand" src="/includes/images/sathumb.jpg"></a>
+      <a class="navbar-brand" href="/" id = "brand"> <img id = "logo" alt="Brand" src="/includes/images/sathumb.JPG"></a>
     
     <div class="" id="myNavbar">
         <div class = "navLi"><a class = "navA" href="/faq">FAQ</a></div>  
         <div class = "navLi"><a class = "navA" href="#">Links</a></div>
-        <div class = "navLi"><a class = "navA" href="#">Flight Information</a></div>     
+        <div class = "navLi"><a class = "navA" href="/prices">Flight Information</a></div>     
         <div class = "navLi"><a class = "navA" href="/">Instructors</a></div>
         <div  class="navLi"><a class = "navA" href="/airplanes">Aircrafts</a></div>
         
@@ -57,7 +57,7 @@
   <div id = "spacer"></div>
   <div class = "dropdown"><a class = "dropdowna" href="/airplanes">Aircrafts</a></div>
   <div class = "dropdown"><a class = "dropdowna" href="/">Instructor</a></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Flight Information</a></div>
+  <div class = "dropdown"><a class = "dropdowna" href="/prices">Flight Information</a></div>
   <div class = "dropdown"><a class = "dropdowna" href="#">Links</a></div>
   <div class = "dropdown"><a class = "last dropdowna " href="/faq">FAQ</a></div>
 </div>
