@@ -27,14 +27,44 @@ make popup window with weather info
 --(done)--  make header and footer on schedule flight intermediate page  --(done)--
 
 
-
+===============
 disovery flight $99
+==========================
 
 average lesson 1 hour ground, 1 hour flight instruction about $205
 
 private pilot $11,290
 
 instrument rating $6660
+
+==============
+60 hrs of flight time * $115 = $6900
+
+40 hrs of flight instruction * $40 = $1600
+40 hrs of ground instruction * $40 = $1600
+
+Books= $200
+
+Maps/Charts = $130
+
+Written Test Fee = $150
+
+Checkride Fee = $450
+
+Medical Exam = $60
+
+Total= $11,290=
+
+============================
+Instrument Pilot Cost Estimate
+40hr aircraft rental           $3750
+30hr Dual Instruction      $1200
+30hr Ground Instruction               $1200
+Books    $100
+Written Test       $60
+Checkride            $350
+Total: $6660
+
 
 
 
