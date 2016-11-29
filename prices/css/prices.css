@@ -26,6 +26,14 @@ body{
 	display:block;
 }
 
+h2{
+	font-weight:bold !important;
+}
+
+h4{
+	font-weight:800 !important;
+}
+
 font-family: 'Lato', sans-serif;
 font-family: 'Taviraj', serif;
 font-family: 'Lora', serif;

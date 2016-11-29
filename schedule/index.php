@@ -52,8 +52,8 @@
 	
 
 	
-<button class = "back"><a href="../index.html">< Back</a></button>
-<button class = "create"><a href="https://flightcircle.com/associate/1ee384bca8d1">Create Account ></a></button>
+<button class = "back" id = "back"><a href="../">< Back</a></button>
+<button class = "create" id = "create"><a href="../sign-up">Create Account ></a></button>
 
 </div>
 

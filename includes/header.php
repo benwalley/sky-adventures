@@ -40,10 +40,10 @@
     
     <div class="" id="myNavbar">
         <div class = "navLi"><a class = "navA" href="/faq">FAQ</a></div>  
-        <div class = "navLi"><a class = "navA" href="#">Links</a></div>
+        <div class = "navLi"><a class = "navA" href="../schedule">Schedule Flight</a></div>
         <div class = "navLi"><a class = "navA" href="/prices">Flight Information</a></div>     
         <div class = "navLi"><a class = "navA" href="/">Instructors</a></div>
-        <div  class="navLi"><a class = "navA" href="/airplanes">Aircrafts</a></div>
+        <div  class="navLi"><a class = "navA" href="/airplanes">Aircraft</a></div>
         
         
         
@@ -55,10 +55,10 @@
 </nav>
 <div id = "drop">
   <div id = "spacer"></div>
-  <div class = "dropdown"><a class = "dropdowna" href="/airplanes">Aircrafts</a></div>
+  <div class = "dropdown"><a class = "dropdowna" href="/airplanes">Aircraft</a></div>
   <div class = "dropdown"><a class = "dropdowna" href="/">Instructor</a></div>
   <div class = "dropdown"><a class = "dropdowna" href="/prices">Flight Information</a></div>
-  <div class = "dropdown"><a class = "dropdowna" href="#">Links</a></div>
+  <div class = "dropdown"><a class = "dropdowna" href="../schedule">Links</a></div>
   <div class = "dropdown"><a class = "last dropdowna " href="/faq">FAQ</a></div>
 </div>
 
